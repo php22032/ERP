@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ywy.erp.mappers.SupplierMapperEx">
+    <select id="selectByConditionSupplier" parameterType="com.ywy.erp.entities.SupplierExample" resultMap="com.ywy.erp.mappers.SupplierMapper.BaseResultMap">
+        select *
+        FROM supplier
+        where 1=1
+        <if test="supplier != null and supplier !=''">
+            <bind name="bindSupplier" value="'%'+supplier+'%'"/>
+            and supplier like #{bindSupplier}
+        </if>
+        <if test="type != null and type !=''">
+            and type=#{type}
+        </if>
+        <if test="phonenum != null and phonenum !=''">
+            <bind name="bindPhoneNum" value="'%'+phonenum+'%'"/>
+            and phone_num like #{bindPhoneNum}
+        </if>
+        <if test="telephone != null and telephone !=''">
+            <bind name="bindTelephone" value="'%'+telephone+'%'"/>
+            and telephone like #{bindTelephone}
+        </if>
+        and ifnull(delete_flag,'0') !='1'
+        order by id desc
+        <if test="offset != null and rows != null">
+            limit #{offset},#{rows}
+        </if>
+    </select>
+    <select id="countsBySupplier" resultType="java.lang.Long">
+        SELECT
+        COUNT(id)
+        FROM supplier
+        WHERE 1=1
+        <if test="supplier != null and supplier !=''">
+            <bind name="bindSupplier" value="'%'+supplier+'%'"/>
+            and supplier like #{bindSupplier}
+        </if>
+        <if test="type != null and type !=''">
+            and type=#{type}
+        </if>
+        <if test="phonenum != null and phonenum !=''">
+            <bind name="bindPhoneNum" value="'%'+phonenum+'%'"/>
+            and phone_num like #{bindPhoneNum}
+        </if>
+        <if test="telephone != null and telephone !=''">
+            <bind name="bindTelephone" value="'%'+telephone+'%'"/>
+            and telephone like #{bindTelephone}
+        </if>
+        and ifnull(delete_flag,'0') !='1'
+    </select>
+
+    <select id="findByAll" parameterType="com.ywy.erp.entities.SupplierExample" resultMap="com.ywy.erp.mappers.SupplierMapper.BaseResultMap">
+        select *
+        FROM supplier
+        where 1=1
+        <if test="supplier != null and supplier !=''">
+            <bind name="bindSupplier" value="'%'+supplier+'%'"/>
+            and supplier like #{bindSupplier}
+        </if>
+        <if test="type != null and type !=''">
+            and type=#{type}
+        </if>
+        <if test="phonenum != null and phonenum !=''">
+            <bind name="bindPhoneNum" value="'%'+phonenum+'%'"/>
+            and phone_num like #{bindPhoneNum}
+        </if>
+        <if test="telephone != null and telephone !=''">
+            <bind name="bindTelephone" value="'%'+telephone+'%'"/>
+            and telephone like #{bindTelephone}
+        </if>
+        and ifnull(delete_flag,'0') !='1'
+        order by id desc
+    </select>
+
+    <update id="batchDeleteSupplierByIds">
+        update supplier
+        set delete_flag='1'
+        where 1=1
+        and id in (
+        <foreach collection="ids" item="id" separator=",">
+            #{id}
+        </foreach>
+        )
+    </update>
+
+    <select id="getSupplierByNameAndType" resultType="com.ywy.erp.entities.Supplier">
+        select *
+        from supplier
+        where supplier = #{supplier} and type = #{type}
+    </select>
+</mapper>
