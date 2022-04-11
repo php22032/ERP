@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T05:05:51.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="9wtwV_Eay82NiwjMNZ_T" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T05:13:06.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="ZhVBnmtEARk29qVk_FEH" version="17.4.0" type="github">
   <diagram id="py1UNrUG_-lajgXrUdHu" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,20 +10,32 @@
         <mxCell id="40NYX0MluGXMJlpDrawb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40NYX0MluGXMJlpDrawb-1" target="40NYX0MluGXMJlpDrawb-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="40NYX0MluGXMJlpDrawb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40NYX0MluGXMJlpDrawb-1" target="40NYX0MluGXMJlpDrawb-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="40NYX0MluGXMJlpDrawb-1" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="290" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="40NYX0MluGXMJlpDrawb-2" value="商户拥有的所&#xa;有查看功能" style="ellipse;" vertex="1" parent="1">
           <mxGeometry x="260" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="40NYX0MluGXMJlpDrawb-3" value="功能管理" style="ellipse;" vertex="1" parent="1">
-          <mxGeometry x="260" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="40NYX0MluGXMJlpDrawb-3" value="系统管理" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="260" y="335" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="40NYX0MluGXMJlpDrawb-4" value="商户管理" style="ellipse;" vertex="1" parent="1">
-          <mxGeometry x="260" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="40NYX0MluGXMJlpDrawb-4" value="功能管理" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="428" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40NYX0MluGXMJlpDrawb-12" value="商户管理" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="428" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40NYX0MluGXMJlpDrawb-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40NYX0MluGXMJlpDrawb-3" target="40NYX0MluGXMJlpDrawb-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="379" y="311" as="sourcePoint" />
+            <mxPoint x="539" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40NYX0MluGXMJlpDrawb-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.033;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="40NYX0MluGXMJlpDrawb-3" target="40NYX0MluGXMJlpDrawb-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="379" y="311" as="sourcePoint" />
+            <mxPoint x="539" y="311" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
