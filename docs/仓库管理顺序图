@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T14:22:27.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.2" etag="6o33s3SoflAeQmUkq4Tj" type="github"><diagram id="R5G_aIjIEHV4VYFIym1O">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-11T14:37:14.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="yE14oXsreWHxR1ze19KZ" version="17.4.2" type="github">
+  <diagram id="R5G_aIjIEHV4VYFIym1O" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-1" value="商户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AVazBz5iuHZL5bZmvF7M-1">
+          <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-3" value="1. 录入新的仓库信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="AVazBz5iuHZL5bZmvF7M-4">
+          <mxGeometry x="-0.1086" y="3" relative="1" as="geometry">
+            <mxPoint x="160" y="183" as="sourcePoint" />
+            <mxPoint x="284" y="183.12" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-4" value="仓库信息页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AVazBz5iuHZL5bZmvF7M-4">
+          <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-15" value="5. 返回执行结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="AVazBz5iuHZL5bZmvF7M-4" source="AVazBz5iuHZL5bZmvF7M-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="130" as="sourcePoint" />
+            <mxPoint x="55" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-7" value="仓库模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AVazBz5iuHZL5bZmvF7M-7">
+          <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-11" value="2. 执行录入" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="-0.0554" relative="1" as="geometry">
+            <mxPoint x="346" y="180" as="sourcePoint" />
+            <mxPoint x="481" y="180.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="346" y="180" />
+              <mxPoint x="736" y="270" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-12" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=30;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AVazBz5iuHZL5bZmvF7M-12">
+          <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-10" value="3. 新增仓库信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="AVazBz5iuHZL5bZmvF7M-12" target="AVazBz5iuHZL5bZmvF7M-13">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint x="-80" y="100" as="sourcePoint" />
+            <mxPoint x="30" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="100" />
+              <mxPoint x="310" y="190" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-14" value="4. 返回执行结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="AVazBz5iuHZL5bZmvF7M-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="130" as="sourcePoint" />
+            <mxPoint x="-80" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-18" value="6. 添加仓库信息完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="AVazBz5iuHZL5bZmvF7M-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="210" as="sourcePoint" />
+            <mxPoint x="159.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVazBz5iuHZL5bZmvF7M-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
